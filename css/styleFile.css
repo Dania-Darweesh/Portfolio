@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Sofia&display=swap');
 * {
   margin: 0;
-  padding: 0; 
+  padding: 0;
 }
 
 body {
@@ -12,6 +12,7 @@ body {
 }
 
 /* SECTION ONE */
+
 .nav {
   position: fixed;
   z-index: 10;
@@ -120,6 +121,7 @@ li a:hover {
 }
 
 /* SECTION TWO */
+
 .section2 {
   background-color: white;
   display: flex;
@@ -143,6 +145,7 @@ li a:hover {
 }
 
 /*SECTION THREE */
+
 .section3 {
   background-color: #f6f6f6;
   width: 100%;
@@ -264,6 +267,7 @@ li a:hover {
 }
 
 /* SECTION FORE */
+
 .section4 {
   margin-top: 30px;
   padding-bottom: 100px;
@@ -360,6 +364,7 @@ li a:hover {
 }
 
 /* SECTION FIVE */
+
 .section5 {
   background-color: rgb(246, 246, 246);
   padding-bottom: 50px;
@@ -437,6 +442,7 @@ li a:hover {
 }
 
 /*  SECTION SIX  */
+
 .section6 {
   width: 100%;
   margin-top: 100px;
@@ -595,6 +601,7 @@ li a:hover {
 }
 
 /* Section7 */
+
 .section7 {
   width: 100%;
   margin-top: 100px;
@@ -664,6 +671,7 @@ input[type=submit]:hover {
 }
 
 /*SECTION 8*/
+
 .footer {
   line-height: 4;
   padding: 20px;
@@ -680,7 +688,9 @@ input[type=submit]:hover {
   margin-left: 20px;
   color: white;
 }
+
 /* ---------------------- MEDIA PART OF CODE --------------------*/
+
 @media (max-width:1024px) {
   .mainImg {
     width: 400px;
@@ -736,7 +746,9 @@ input[type=submit]:hover {
     margin: 102px auto;
   }
 }
+
 /*----------------------------------MEDIA TWO -------------------*/
+
 @media ( min-width:377px) and (max-width:768px) {
   body {
     overflow-x: hidden;
@@ -751,8 +763,9 @@ input[type=submit]:hover {
   .nav .cherry {
     margin-top: 40px;
   }
-  .nav{ overflow-x: hidden;
-   width: 767px;
+  .nav {
+    overflow-x: hidden;
+    width: 767px;
   }
   li a {
     font-size: 15px;
@@ -789,7 +802,6 @@ input[type=submit]:hover {
     font-size: 35px;
   }
   .section2 {
-    
     padding-right: 0;
     height: 100px;
   }
@@ -909,7 +921,9 @@ input[type=submit]:hover {
     font-size: 25px;
   }
 }
+
 /*--------------------------------MEDIA THREE -------------------*/
+
 @media (max-width:376px) {
   /* SECTION ONE */
   .nav {
@@ -1080,8 +1094,12 @@ input[type=submit]:hover {
     margin-top: 230px;
     margin-left: -72px;
   }
-  .ver1{display: none;}
-  .ver2{display: none;}
+  .ver1 {
+    display: none;
+  }
+  .ver2 {
+    display: none;
+  }
   .cont {
     display: none;
   }
